@@ -1,0 +1,7 @@
+# dsh-session-trash bundle layer.
+#
+# One loader row: the package entry is the Host half, and the package's
+# `dsh.client` declaration serves the browser half from `./client`.
+- insert:
+    - id: session-trash
+      name: 'dsh-session-trash'
